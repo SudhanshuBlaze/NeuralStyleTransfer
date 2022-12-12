@@ -1,12 +1,8 @@
 ---
 title: Neural Style Transfer
-emoji: 🦀
-colorFrom: red
-colorTo: gray
 sdk: streamlit
 sdk_version: 1.15.2
 app_file: app.py
-pinned: false
 license: Apache License 2.0
 ---
 
