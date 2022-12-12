@@ -17,6 +17,7 @@ This is implemented by optimizing the output image to match the content statisti
 In this project we are buidling **streamlit** demo for Fast arbitrary image style transfer using a **pretrained** Image Stylization model from **TensorFlow Hub**. To use it, simply upload a content image and style image.
 
 ## Example
+
 ![image](https://user-images.githubusercontent.com/63813872/207122513-f6129812-6cb3-4147-897b-abe932a4e51c.png)
 
 ## Deployed app
@@ -65,6 +66,22 @@ streamlit run app.py
 ```
 
 #### Now go to http://localhost:8501/ to test out this streamlit web-app
+
+#
+
+### Run inside Docker
+
+- `Step 1`: Build the docker image
+
+```bash
+docker build -t neural-style-transfer .
+```
+
+- `Step 2`: Run the docker container
+
+```bash
+docker run -p 8501:8501 neural-style-transfer
+```
 
 ### References:
 
