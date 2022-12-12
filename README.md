@@ -43,13 +43,13 @@ Neural Style Transfer Project
 - `Step 1`: Cloning the repo
 
 ```bash
-git clone https://github.com/DigitalProductschool/AI-Makerspace.git
+git clone https://github.com/SudhanshuBlaze/NeuralStyleTransfer.git
 ```
 
 - `Step 2`: Changing working directory to TextAutocomplete-Streamlit
 
 ```bash
-cd AI-Makerspace/HuggingFace/StyleTransfer
+cd NeuralStyleTransfer
 ```
 
 - `Step 3`: Installing dependencies using pip3
