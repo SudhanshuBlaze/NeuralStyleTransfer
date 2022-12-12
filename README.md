@@ -7,7 +7,7 @@ sdk: streamlit
 sdk_version: 1.15.2
 app_file: app.py
 pinned: false
-license: mit
+license: Apache License 2.0
 ---
 
 # Neural image style transfer
