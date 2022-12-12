@@ -12,11 +12,12 @@ Neural style transfer is an optimization technique used to take two images—a c
 
 This is implemented by optimizing the output image to match the content statistics of the content image and the style statistics of the style reference image. These statistics are extracted from the images using a convolutional network.
 
-## Example
-
 ## Goal
 
 In this project we are buidling **streamlit** demo for Fast arbitrary image style transfer using a **pretrained** Image Stylization model from **TensorFlow Hub**. To use it, simply upload a content image and style image.
+
+## Example
+![image](https://user-images.githubusercontent.com/63813872/207122513-f6129812-6cb3-4147-897b-abe932a4e51c.png)
 
 ## Deployed app
 
